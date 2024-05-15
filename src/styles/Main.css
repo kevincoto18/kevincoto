@@ -13,7 +13,8 @@
 }
 
 .intro {
-    padding-top: 100px;
+
+    padding-top: 85px;
 }
 
 .intro .text {
@@ -28,7 +29,25 @@
 }
 
 
-.presentation svg {
+.btn-group {
+    width: 30vh;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+
+.btn-group .btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: #363636;
+}
+
+.presentation .waves {
     margin-top: auto;
+    padding: 0%;
     width: 100%;
 }
