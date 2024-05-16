@@ -1,12 +1,232 @@
-.Container {
+.body {
     background-color: #f3f4f5;
+    text-align: center;
+    height: auto;
+
+}
+
+#title {
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    font-size: calc(5px + 2vmin);
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.container .image {
+    margin-right: 5%;
+    /* Añade espacio entre la imagen y la tarjeta */
+}
+
+.container .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.card {
+    flex: 1;
+    /* Permite que la tarjeta tome el espacio disponible */
+    max-width: 600px;
+    /* Limita el ancho máximo de la tarjeta */
+
+    border: none;
+    border-radius: 10px
+}
+
+.card .card-body {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.CVGroup {
+    width: 40%;
+    margin: 0;
+}
+
+#resumetitle {
+    padding-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: larger;
+
+}
+
+/* Seccion Services */
+
+.Services {
+    height: auto;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+.Services .cards {
+
+    display: flex;
+    flex-direction: row;
+    /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.knowledge {
+    color: aliceblue;
+    max-width: calc(33.33% - 70px);
+    /* Resta un pequeño margen para evitar que las cards se superpongan */
+    margin: 0 10px;
+    /* Añade un pequeño margen entre las cards */
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card.knowledge:hover {
+    transform: translateY(-20px);
+    /* Cambia la posición vertical al pasar el ratón por encima */
+}
+
+.cardimg {
+    height: 10rem;
+    width: 100%;
+    padding: 5%;
+    /* Asegura que la imagen ocupe todo el ancho de la card */
+}
+
+
+
+#DataBase {
+
+    background: rgb(108, 108, 229);
+}
+
+#Code {
+
+    background: rgb(249, 215, 76);
     color: black;
-    height: 100vh;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+}
+
+#Analyts {
+    background: rgb(249, 123, 139);
+}
+
+.cardtitle {
+    font-size: 2rem;
+    padding-bottom: 4%;
+}
+
+@media (max-width: 768px) {
+    .body {
+        height: auto;
+        padding-top: 10%;
+
+    }
+
+    #title {
+
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .container {
+
+        flex-direction: column;
+    }
+
+    .container .image {
+        margin: 0 0 20px 0;
+        /* Añade espacio entre la imagen y la tarjeta */
+    }
+
+    .CVGroup {
+        width: 60%;
+        margin: 0;
+    }
+
+
+
+    /* Seccion Services */
+    .Services .cards {
+        display: flex;
+        flex-direction: column;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+
+
+    }
+
+
+
+    .knowledge {
+
+        flex: 1 0 100%;
+        /* Para que las tarjetas ocupen todo el ancho en una columna */
+        max-width: 100%;
+        /* Garantiza que las tarjetas no excedan el ancho máximo */
+        margin: 30px 10px;
+        /* Ajusta los márgenes */
+        box-sizing: border-box;
+        /* Incluye el padding y el borde en el ancho total */
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* Seccion Services */
+    .Services .cards {
+        display: flex;
+        flex-direction: column;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+
+
+    }
+
+    .knowledge {
+
+        flex: 1 0 100%;
+        /* Para que las tarjetas ocupen todo el ancho en una columna */
+        max-width: 100%;
+        /* Garantiza que las tarjetas no excedan el ancho máximo */
+        margin: 30px 0px;
+        /* Ajusta los márgenes */
+        box-sizing: border-box;
+        /* Incluye el padding y el borde en el ancho total */
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Seccion Services */
+    .Services .cards {
+        display: flex;
+        flex-direction: column;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+
+
+    }
+
+    .knowledge {
+
+        flex: 1 0 100%;
+        /* Para que las tarjetas ocupen todo el ancho en una columna */
+        max-width: 100%;
+        /* Garantiza que las tarjetas no excedan el ancho máximo */
+        margin: 30px 0px;
+        /* Ajusta los márgenes */
+        box-sizing: border-box;
+        /* Incluye el padding y el borde en el ancho total */
+    }
 }
