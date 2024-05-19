@@ -40,7 +40,13 @@
     /* Limita el ancho máximo de la tarjeta */
 
     border: none;
-    border-radius: 10px
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .card .card-body {
@@ -162,6 +168,7 @@
         flex-direction: column;
         /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
         justify-content: center;
+        margin: 2%;
 
 
     }
@@ -189,6 +196,7 @@
         flex-direction: column;
         /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
         justify-content: center;
+        margin: 5%;
 
 
     }

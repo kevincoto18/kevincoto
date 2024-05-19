@@ -1,0 +1,62 @@
+.bodyExperience {
+    background-color: #f3f4f5;
+    text-align: center;
+    height: auto;
+    padding-top: 3rem;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cardExperience {
+    margin: 0 30px;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+
+.cardExperience:hover {
+    transform: translateY(-10px);
+    /* Cambia la posición vertical al pasar el ratón por encima */
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .bodyExperience {
+        height: fit-content;
+        padding-top: 0%;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+
+    .cardExperience {
+        flex: 1 0 100%;
+        /* Para que las tarjetas ocupen todo el ancho en una columna */
+        max-width: 100%;
+        /* Garantiza que las tarjetas no excedan el ancho máximo */
+        margin: 30px 10px;
+        /* Ajusta los márgenes */
+        box-sizing: border-box;
+        /* Incluye el padding y el borde en el ancho total */
+    }
+
+
+
+}
