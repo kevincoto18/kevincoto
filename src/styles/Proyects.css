@@ -1,7 +1,75 @@
 .ProyectsContainer {
     background-color: #F3F4F5;
     text-align: center;
-    height: 30vh;
+    height: max-content;
     padding-top: 3rem;
+}
+
+#ProyectsCards {
+    display: flex;
+    flex-direction: row;
+    /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cardtitle {
+    height: 28%;
+}
+
+#CardONU {
+    color: black;
+}
+
+#CardWeb {
+    color: black;
+}
+
+#CardBWork {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #ProyectsCards {
+        display: flex;
+        flex-direction: column;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+        margin-top: 2rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    #ProyectsCards {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
+        justify-content: center;
+
+        margin-top: 2rem;
+    }
+
+    .card {
+        flex: 1 1 30%;
+        /* Permite que las cards tengan un ancho flexible, ajustándose al tamaño del contenedor */
+        margin: 1rem;
+        min-width: 280px;
+        /* Asegura que las cards no sean demasiado pequeñas */
+        max-width: 100%;
+        /* Asegura que las cards no excedan el contenedor */
+        box-sizing: border-box;
+        /* Incluye padding y borde en el tamaño total del elemento */
+    }
+
+    .card-body {
+        word-wrap: break-word;
+        /* Permite que las palabras largas se dividan y no se desborden */
+    }
+
+
+
+
 
 }

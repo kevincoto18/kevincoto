@@ -1,0 +1,57 @@
+.tecnologias {
+    padding-top: 30px;
+    height: fit-content;
+    background-color: #F3F4F5;
+
+}
+
+#linea {
+
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px;
+}
+
+#titleTecnologias {
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Container for logos */
+.logos-container {
+    display: flex;
+
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* Individual logo items */
+.logo-item {
+    margin: 10px;
+    flex: 0 1 10%;
+    /* Adjusts the space each logo takes up */
+    max-width: 100px;
+    /* Optional: adjust max width */
+}
+
+/* Styling the logos */
+.logo {
+    width: 60px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+    object-fit: contain;
+    /* Ensures the logo maintains its aspect ratio */
+
+}
+
+
+@media (max-width: 768px) {
+    #linea {
+        width: 90%;
+    }
+}

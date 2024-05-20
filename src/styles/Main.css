@@ -8,6 +8,16 @@
     height: max-content;
 }
 
+.olas {
+
+    width: 100%;
+    height: 30%;
+}
+
+.waves {
+    top: 1px;
+}
+
 .intro {
     padding-top: 5%;
 }
