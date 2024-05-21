@@ -11,6 +11,7 @@
     /* Permite que las cards se envuelvan a una nueva línea si no caben en la misma */
     justify-content: center;
     margin-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .cardtitle {
@@ -29,6 +30,11 @@
     color: black;
 }
 
+.footer {
+    height: 5vh;
+    background-color: #3f3d5c;
+}
+
 @media (max-width: 768px) {
     #ProyectsCards {
         display: flex;
@@ -41,7 +47,7 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     #ProyectsCards {
         display: flex;
         flex-wrap: wrap;

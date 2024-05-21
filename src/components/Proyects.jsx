@@ -53,10 +53,6 @@ function Proyects() {
                     </div>
 
                 </div>
-                <br />
-                <br />
-
-
 
             </Slide>
         </div>

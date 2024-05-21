@@ -3,7 +3,7 @@ import "../styles/Aboutme.css"
 import databaseSVG from "../svg/database.svg";
 import analysis from "../svg/analysis.svg"
 import programmer from "../svg/programmer.svg"
-import Avatar2 from '../svg/avatar-2.svg'
+import Avatar2 from '../svg/try2.jpg'
 import { Slide } from "react-awesome-reveal";
 
 function Aboutme() {
@@ -24,7 +24,7 @@ function Aboutme() {
             <section className="container">
 
                 <div className="image">
-                    <img src={Avatar2} alt="" srcset="" />
+                    <img src={Avatar2} alt="" srcset="" id="foto" />
                 </div>
 
                 <div className="card" >
