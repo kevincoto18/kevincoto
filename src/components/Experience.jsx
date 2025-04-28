@@ -16,17 +16,16 @@ function Experience() {
 
                         <div class="card-body">
                             <Slide direction='up'>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">2023 - 2024</h6>
-                                <h4 class="card-title">Analista de Datos</h4>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Universidad Estatal a Distancia - Cartago, Costa Rica</h6>
-                                <p class="card-text">Aplicacion de Procesos ETL en la manipulacion de datos, asi como herramientas para visualizar y generar informes detallados </p>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">2024 - 2025</h6>
+                                <h4 class="card-title">Ingeniero de Software Full Stack</h4>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">GrupoMAS - San Jose, Costa Rica</h6>
+                                <p class="card-text">Desarrollé aplicaciones internas utilizando Visual Studio con C# y React, enfocándome en la migración de sistemas legacy a soluciones modernas mediante la creación de módulos clave.</p>
 
                                 <hr />
                                 <h6 class="card-subtitle mb-2 text-body-secondary">2022 - 2023</h6>
-                                <h4 class="card-title">Ingeniero de Software</h4>
+                                <h4 class="card-title">Ingeniero de Software (Pasantia)</h4>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">Asamblea Legislativa de Costa Rica - San Jose, Costa Rica</h6>
-                                <p class="card-text">Participacion en proyecto Objetivos de Desarrollo Sostenible de la ONU para la agenda 2023 de
-                                    Costa Rica</p>
+                                <p class="card-text">Participacion en proyecto Objetivos de Desarrollo Sostenible de la ONU para la agenda 2023 de Costa Rica el cual colabore en el desarrollo de modulos para la clasificacion de diferntes proyectos de ley</p>
                             </Slide>
                         </div>
 
@@ -35,10 +34,10 @@ function Experience() {
                     <div class="card cardExperience">
                         <div class="card-body">
                             <Slide direction='up'  >
-                                <h6 class="card-subtitle mb-2 text-body-secondary">2022 - Actual</h6>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">2022 - 2025</h6>
                                 <h4 class="card-title">Bachillerato Ingenieria Informatica</h4>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">Universidad Estatal a Distancia (UNED)</h6>
-                                <p class="card-text"> Aprendizaje en conceptos de Big Data, Analisis de Datos, creacion y administracion de proyectos informaticos  </p>
+                                <p class="card-text"> Aprendizaje en conceptos de Big Data, Analisis de Datos, creacion y administracion de proyectos informaticos y desarrollo de software siguiendo las mejores practicas de codigo limpio </p>
 
                                 <hr />
                                 <h6 class="card-subtitle mb-2 text-body-secondary">2020 - 2022</h6>

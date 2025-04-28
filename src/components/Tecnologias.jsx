@@ -26,7 +26,6 @@ function Tecnologias() {
         { src: mysql, alt: 'Logo 6' },
         { src: react, alt: 'Logo 7' },
         { src: angular, alt: 'Logo 8' },
-        { src: spring, alt: 'Logo 9' },
         { src: PowerBi, alt: 'Logo 10' },
 
     ];

@@ -6,7 +6,7 @@ import avatar from '../svg/avatar-1.svg'
 
 function Main() {
     const [texto] = useTypewriter({
-        words: ['Programador', 'Analista de Datos', ' Admin de BD'],
+        words: ['Programador', 'Ingeniero de Software', ' Aspirante a Cloud Manager'],
         loop: { delay: 2000 },
     });
     return (

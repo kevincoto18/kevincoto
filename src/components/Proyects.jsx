@@ -31,16 +31,7 @@ function Proyects() {
 
                         </div>
                     </div>
-                    <div class="card knowledge" id="CardWeb" >
-                        <img src={Web} className="card-img-top cardimg" alt="10px" />
-                        <div class="card-body" id="CardWeb">
-                            <h5 class="card-title cardtitle">Página Web Estática</h5>
-                            <hr />
-                            <p class="card-text">Colaboración en el desarrollo de  una página web estática para mostrar un negocio local llamado 'Donde Guido Lavacar' Para el desarrollo de esta pagina web se utilizo HTML, CSS y Javascript</p>
-                            <button type="button" class="btn btn-outline-secondary" onClick={Lavacar}>Donde Guido Lavacar</button>
 
-                        </div>
-                    </div>
                     <div class="card knowledge" id="CardBWork">
                         <img src={Survey} className="card-img-top cardimg" alt="10px" />
                         <div class="card-body" id="CardBWork">
